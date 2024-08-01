@@ -1,4 +1,4 @@
-def print_list(nums):
+def reverse_list(nums):
     for i in range(len(nums) - 1, -1, -1):
         print(nums[i], end=" ")
 
@@ -13,4 +13,4 @@ while True:
         break
 
 print("The Items in the List in Reverse Order: ")
-print_list(nums)
+reverse_list(nums)
